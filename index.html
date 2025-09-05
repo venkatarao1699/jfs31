@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Simple Job Form</title>
 </head>
 <body>
-    venkat rao m
-    
+  <h1>Job Application Form</h1>
+
+  <form action="#" method="post">
+    <!-- 1. Text -->
+    <label>Full Name:</label>
+    <input type="text" name="fullname"><br><br>
+
+    <!-- 2. Email -->
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+
+    <!-- 3. Password -->
+    <label>Password:</label>
+    <input type="password" name="password"><br><br>
+
+    <!-- 4. Number -->
+    <label>Years of Experience:</label>
+    <input type="number" name="experience"><br><br>
+
+    <!-- 5. Date -->
+    <label>Date of Birth:</label>
+    <input type="date" name="dob"><br><br>
+
+    <!-- 6. Time -->
+    <label>Preferred Interview Time:</label>
+    <input type="time" name="interview_time"><br><br>
+
+    <!-- 7. File -->
+    <label>Upload Resume:</label>
+    <input type="file" name="resume"><br><br>
+
+    <!-- 8. Radio -->
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female<br><br>
+
+    <!-- 9. Checkbox -->
+    <label>Skills:</label>
+    <input type="checkbox" name="skill_html"> HTML
+    <input type="checkbox" name="skill_css"> CSS
+    <input type="checkbox" name="skill_js"> JavaScript<br><br>
+
+    <!-- 10. Color -->
+    <label>Favorite Color:</label>
+    <input type="color" name="favcolor"><br><br>
+
+    <!-- Buttons -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
 
 </body>
 </html>

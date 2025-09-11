@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 200px  100px 100px; */
+            /* grid-template-columns: repeat(3,500px); */
+             grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+
+            grid-template-rows: 100px 100px 100px;
+            gap:20px;
+            
+        }
+        .child{
+            display: grid;
+            /* background-color: rgb(255,255, 2,0.5); rgb*/
+            background-color: #b71540;
+            /* background-color: hsl(100, 100, 50); */
+            place-items: center;
+           
+        }
+        .child1{
+             display: grid;
+            background-color: rgb(255, 153, 0);
+            place-items: center;
+            grid-column: 1/3;
+        }
+        .container1{
+            display: flex;
+            border-width: 2px;
+            gap:10px;
+            /* border-style: dotted;
+             border-style: dashed; */
+              border-style: inset;
+            border-color: blue;
+
+        }
+        .child2{
+            display: grid;
+            background-color: #b71540;
+            border: 2px solid;
+            border-radius: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="child1">bvekvnaoj</div>
+        <div class="child">bvekvnaoj</div>
+        <div class="child">bvekvnaoj</div>
+        <div class="child">bvekvnaoj</div>
+        <div class="child">bvekvnaoj</div>
+        <div class="child">bvekvnaoj</div>
+    </div> -->
+    <div class="container1">
+        <div class="child2">bqawbd</div>
+        <div class="child2">bqawbd</div>
+        <div class="child2">bqawbd</div>
+    </div>
+</body>
+</html>
